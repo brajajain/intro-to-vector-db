@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pinecone-client = "*"
+langchain = "*"
+black = "*"
+llama-cpp-python = "*"
+langchain-pinecone = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
